@@ -1,0 +1,289 @@
+/*
+
+	KEEP CSS CLEAN
+	
+	1. Only put one selector per line for a block of rules that apply to multiple selectors.
+	2. Indent your rules and only use one rule per line.
+	3. Indent proprietary properties twice. Keep these properties directly below the proposed property.
+	4. Place a space between a property and it's value.
+
+	EXAMPLE:
+	
+	element#id,
+	element.class {
+		rule1: value;
+			-webkit-rule1: value;
+			-moz-rule1: value;
+		rule2: value;
+		rule3: value;
+	}
+	
+	TABLE OF CONTENTS:
+	
+	Reset
+	Common
+	Structure
+	Style
+	
+*/
+
+
+/* Reset
+================================================================================ */
+
+
+html,
+body,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+sub {
+	vertical-align: text-bottom;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header, 
+hgroup,
+nav,
+section { 
+	display:block;
+}
+
+
+/* Common
+================================================================================ */
+
+
+body {
+	text-align: center;
+	font-family: Arial, Verdana, Helvetica, Sans-Serif;
+	background: rgb(255,255,255) url(../images/bg.gif) repeat-y top center;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: rgb(205,0,0);
+}
+
+a:hover,
+a:active {
+	text-decoration: underline;
+	color: rgb(125,0,0);
+}
+
+p, ul, ol, dl {
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+ol {
+	margin-left: 20px;
+}
+
+blockquote {
+	font-style: italic;
+	padding: 0 20px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	padding: 0 20px;
+	margin-top: 20px;
+}
+
+h1 { 
+	font-size: 32px;
+	line-height: 40px;
+}
+
+h2 { 
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+h3 { 
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+
+/* Structure
+================================================================================ */
+
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+}
+
+.column-full {
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.column-twelve { width: 960px; }
+.column-eleven { width: 880px; }
+.column-ten { width: 800px; }
+.column-nine { width: 720px; }
+.column-eight { width: 640px; }
+.column-seven { width: 560px; }
+.column-six { width: 480px; }
+.column-five { width: 400px; }
+.column-four { width: 320px; }
+.column-three { width: 240px; }
+.column-two { width: 160px; }
+.column-one { width: 80px; }
+
+.column-twelve,
+.column-eleven,
+.column-ten,
+.column-nine,
+.column-eight,
+.column-seven,
+.column-six,
+.column-five,
+.column-four,
+.column-three,
+.column-two,
+.column-one {
+	float: left;
+}
+
+
+/* Style
+================================================================================ */
+
+
+p.extras {
+	font-size: 11px;
+	color: rgb(155,155,155);
+}
+
+p.extras a:link,
+p.extras a:visited {
+	color: rgb(125,125,125);
+}
+
+p.extras a:hover,
+p.extras a:active {
+	color: rgb(125,0,0);
+}
+
+#header {
+	padding: 20px 0 0 0;
+}
+
+#navigation ul {
+	margin-left: 0;
+}
+
+#navigation ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+#content #content-main ul li {
+	list-style: disc;
+}
+
+#content #content-main ol li {
+	list-style: decimal;
+}
+
+#content #content-secondary .external {
+	padding: 20px 20px 0 20px;
+}
+
+#content #content-secondary .ads {
+	float: left;
+	background-color: rgb(255,215,215);
+	padding: 0 5px 0 5px;
+}
+
+#content #content-secondary .ads img {
+	display: block;
+}
+
+#content #content-secondary .ads .small125x125 {
+	float: left;
+	padding: 10px 5px 0 5px;
+}
+
+#content #content-secondary .ads-clear {
+	clear: both;
+	font-size: 11px;
+	margin-bottom: 0;
+	color: rgb(155,155,155);
+	text-align: center;
+	background-color: rgb(255,215,215);
+	padding: 2px 0 3px 0;
+}

@@ -1,0 +1,57 @@
+/* ========== */
+/* = COMMON = */
+/* ========== */
+
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration:none;
+	color:#000000;
+}
+
+
+/* ============= */
+/* = STRUCTURE = */
+/* ============= */
+
+
+body {
+	font-family:Arial, Verdana, Helvetica, Sans-Serif;
+	font-size:10pt;
+}
+
+
+/* ========= */
+/* = STYLE = */
+/* ========= */
+
+
+#header {
+	border-bottom:1px solid #000000;
+	padding:0 0 10px 0;
+}
+
+#header nav,
+#header p span.files,
+#navigation,
+#content #content-secondary .external,
+p.extras span,
+#sitemap {
+	display:none;
+}
+
+#content {
+	padding:0 0 10px 0;
+}
+
+blockquote {
+	font-style:italic;
+}
+
+#footer {
+	border-top:1px solid #000000;
+}
+
+
