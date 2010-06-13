@@ -1,6 +1,6 @@
-/* ========== */
-/* = COMMON = */
-/* ========== */
+
+/* Common
+================================================================================ */
 
 
 a:link,
@@ -8,50 +8,47 @@ a:visited,
 a:hover,
 a:active {
 	text-decoration:none;
-	color:#000000;
+	color: rgb(0,0,0);
 }
 
 
-/* ============= */
-/* = STRUCTURE = */
-/* ============= */
+/* Structure
+================================================================================ */
 
 
 body {
-	font-family:Arial, Verdana, Helvetica, Sans-Serif;
-	font-size:10pt;
+	font-family: "DejaVu Sans", "URW Gothic L", "Helvetica Neue", Helvetica,
+	             Arial, "Microsoft Sans Serif", sans-serif;
+	font-size: 10pt;
 }
 
 
-/* ========= */
-/* = STYLE = */
-/* ========= */
+/* Style
+================================================================================ */
 
 
 #header {
-	border-bottom:1px solid #000000;
-	padding:0 0 10px 0;
+	border-bottom: 1px solid rgb(0,0,0);
+	padding: 0 0 10px 0;
 }
 
-#header nav,
 #header p span.files,
 #navigation,
-#content #content-secondary .external,
-p.extras span,
-#sitemap {
-	display:none;
+#content p.meta span.social,
+#footer {
+	display: none;
 }
 
 #content {
-	padding:0 0 10px 0;
+	padding: 0 0 10px 0;
 }
 
 blockquote {
-	font-style:italic;
+	font-style: italic;
 }
 
-#footer {
-	border-top:1px solid #000000;
+#copyright {
+	border-top: 1px solid rgb(0,0,0);
 }
 
 
